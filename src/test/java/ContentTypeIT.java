@@ -19,7 +19,7 @@ public class ContentTypeIT {
     public void setup() throws Exception {
         WebAppContext webapp = new WebAppContext();
         webapp.setContextPath("/");
-        webapp.setWar("target/hellowink-1.0-SNAPSHOT.war");
+        webapp.setWar("target/wink-content-type-bug-1.0-SNAPSHOT.war");
 
         server.setHandler(webapp);
 
